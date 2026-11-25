@@ -1,0 +1,38 @@
+{
+  "name": "HabitFlow",
+  "description": "A SwiftUI habit tracker with SwiftData persistence, streak analytics, an interactive calendar and local daily reminders.",
+  "platform": "iOS 17.0+",
+  "programmingLanguage": "Swift 6.2",
+  "frameworks": ["SwiftUI", "SwiftData", "Swift Charts", "UserNotifications", "Observation"],
+  "features": [
+    "Today dashboard with completion ring and one-tap check-off",
+    "Habit creation, editing and deletion",
+    "Current streak calculation",
+    "Weekly Swift Charts bar chart",
+    "Interactive month completion calendar",
+    "Monthly completion rate",
+    "Daily local reminders with custom hour",
+    "Light and dark appearance"
+  ],
+  "architecture": "MVVM + @Observable store; SwiftData @Model; pure analytics helpers; protocol-injected notification scheduler for deterministic tests.",
+  "dataSources": [],
+  "developmentStatus": "complete",
+  "buildVerification": {
+    "status": "verified",
+    "xcode": "26.0.1",
+    "swift": "6.2",
+    "sdk": "iOS Simulator 26.0",
+    "deploymentTarget": "iOS 17.0",
+    "build": "passed",
+    "buildForTesting": "passed",
+    "unitTests": "authored; execution skipped at user request",
+    "uiTests": "authored; execution skipped at user request",
+    "simulatorLaunch": "verified",
+    "physicalDeviceTests": "local notification delivery and authorization prompts require a physical device"
+  },
+  "screenshotPaths": [
+    "portfolio/screenshots/today-light.png",
+    "portfolio/screenshots/today-dark.png"
+  ],
+  "repositoryUrl": null
+}
